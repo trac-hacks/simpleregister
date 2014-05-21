@@ -17,3 +17,9 @@ Add a new section in your conf/trac.ini specifying an email of a person responsi
 	[simpleregister]
 	email = admin@yourdomain.com
 
+To control the order in which the links appear, you can use metanav setting in trac section as follows:
+
+	[trac]
+	...
+	metanav = login, logout, register, prefs, help, about
+
